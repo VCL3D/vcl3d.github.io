@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "Why use Project Pages?"
+description: "VCLab's Domain"
 header-img: "img/home-bg.jpg"
 ---
 
@@ -11,4 +11,3 @@ Its research domains are:
 - Real-time Human 3D Reconstruction
 - Deep Learning
 - Image processing and Pattern Recognition
-	
