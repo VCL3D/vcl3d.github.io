@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Software"
-description: "Description of Software tools"
+description: "Description of Software tools provided by VCLab"
 header-img: "img/home-bg.jpg"
 category: Software_tools
 ---
