@@ -7,15 +7,15 @@ url: "https://vcl3d.github.io"
 
 
 # Secondary Parameters
-baseurl: "/VolumetricCapture"
+baseurl: "/vcl3d.github.io"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
 logo: /img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
-github_username:  VolumetricCapture
-project_repository: VolumetricCapture
-disqus_shortname: VolumetricCapture
+github_username:  vcl3d.github.io
+project_repository: vcl3d.github.io
+disqus_shortname: vcl3d.github.io
 g-analytics: UA-75881392-1
 altmetric: true
 
