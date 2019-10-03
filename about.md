@@ -5,5 +5,10 @@ description: "Why use Project Pages?"
 header-img: "img/home-bg.jpg"
 ---
 
-Project Pages is a research blog tool that allows you to quickly show your latest results to an advisor, collaborators or your mom.
+VCLab team is a part of the department of Information Technologies Institue(ITI) of Centre for Research and Technology Hellas (CERTH).
+Its research domains are:
+- Computer Vision
+- Real-time Human 3D Reconstruction
+- Deep Learning
+- Image processing and Pattern Recognition
 	
