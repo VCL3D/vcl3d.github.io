@@ -10,14 +10,14 @@
 - name: Vladimiros Sterzentsenko
   role: Research Assistant / Software Developer
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/members/Vladimiros.jpg?raw=true
-  github: vladster
+  github: vladsterz
   bio: Vladimiros Sterzentsenko received his diploma in Electrical and Computer Engineering from the Aristotle University of Thessaloniki (A.U.Th.) on November 2017. His research interests include machine learning, pattern recognition , computer vision and image processing.
   visible: true
   
 - name: Anargyros Chatzitofis 
   role: PhD Candidate / Research Assistant / Software Developer
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/members/Anargyros_Chatzitofis.jpg?raw=true
-  github: tofis3d
+  github: tofis
   bio: I completed my studies at the National Technical University of Athens (NTUA), Electrical and Computer Engineering with specialization in Computer Vision. I was co-founder of a video game development company, SDS Game Studios (SDS). In November of 2012, I joined the Information Technologies Institute (ITI) and, since then, I have been working as a Research Associate. I’m currently working on human motion capture methods and technologies using depth sensors, Wireless Inertial Measurement Units, RGB-cameras and more, while, I am studying for a PhD in Computer Science at NTUA, focused on novel methods of 3D motion capturing and evaluation.
   visible: true
   
