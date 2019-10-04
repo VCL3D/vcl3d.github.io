@@ -5,3 +5,9 @@
   github: https://github.com/VCL3D/VolumetricCapture
   pdf: http://vcl.iti.gr/vclNew/wp-content/uploads/2018/11/low-cost-flexible.pdf
   visible: true
+
+- name: "Self-Supervised Deep Depth Denoising"
+  info: Vladimiros Sterzentsenko, Leonidas Saroglou, Anargyros Chatzitofis, Spyridon Thermos, Nikolaos Zioulis, Alexandros Doumanoglou, Dimitrios Zarpalas, Petros Daras. International Conference on Computer Vision(ICCV 2019), Seoul, Korea
+  github: https://vcl3d.github.io/DeepDepthDenoising/
+  pdf: https://arxiv.org/pdf/1909.01193.pdf
+  visible: true
