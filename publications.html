@@ -13,8 +13,10 @@ header-img: "img/home-bg.jpg"
 	{% endif %}
 	<h1>{{ publication.name }}</h1>
 	
+	<div style = "text-align: justify;">{{ publication.info }}</div>
+	<!--
 	<p>{{ publication.info }}</p>
-	
+	-->
 	{% if publication.github %} 
 	<span class="social-share-googleplus"><a href="{{ publication.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
 	{% endif %}
