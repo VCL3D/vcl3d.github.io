@@ -8,6 +8,9 @@ header-img: "img/home-bg.jpg"
 
 {% for publication in site.data.publications %} {% if publication.visible == true %}
 	
+	{% if publication.img %} 
+	<img src="{{ publication.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:150px !important">
+	{% endif %}
 	<h1>{{ publication.name }}</h1>
 	
 	<p>{{ publication.info }}</p>
