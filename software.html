@@ -10,9 +10,9 @@ header-img: "img/home-bg.jpg"
 	
 	<h1>{{ tool.name }}</h1>
 	
-	<h2>{{ tool.description }}</h2>
+	<div style = "text-align: justify;">{{ tool.description }}</div>
 	
-	{% if member.github %} 
+	{% if tool.github %} 
 	<span class="social-share-googleplus"><a href="https://github.com/{{ tool.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
 	{% endif %}
 	{% if member.gplus %}
