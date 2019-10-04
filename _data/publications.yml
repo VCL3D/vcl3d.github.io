@@ -13,3 +13,10 @@
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publications_images/ddd_image.png?raw=true
   pdf: https://arxiv.org/pdf/1909.01193.pdf
   visible: true
+  
+  - name: "360 Surface Regression with a Hyper-Sphere Loss"
+  info: Antonis Karakottas, Nikolaos Zioulis, Stamatis Samaras, Dimitrios Ataloglou, Vasileios Gkitsas,  Dimitrios Zarpalas, Petros Daras. In Proceedings of the 7th International Conference on 3D Vision (3DV), Québec City, Canada, September 16-19, 2019
+  github: https://vcl3d.github.io/3D60/
+  img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publications_images/3D60_dataset_image.png?raw=true
+  pdf: https://vcl.iti.gr/vclNew/wp-content/uploads/2019/09/HyperSphereLoss.pdf
+  visible: true
