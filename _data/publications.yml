@@ -4,12 +4,12 @@
   info: Vladimiros Sterzentsenko, Antonis Karakottas, Alexandros Papachristou, Nikolaos Zioulis, Alexandros Doumanoglou, Dimitrios Zarpalas, and Petros Daras. The 14th International Conference on Signal Image Technology & Internet based Systems (SITIS 2018), Las Palmas de Gran Canaria, Spain, 26-29 November 2018 
   github: https://github.com/VCL3D/VolumetricCapture
   pdf: http://vcl.iti.gr/vclNew/wp-content/uploads/2018/11/low-cost-flexible.pdf
-  img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publication_images/Volcap_image.png?raw=true
+  img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publications_images/Volcap_image.png?raw=true
   visible: true
 
 - name: "Self-Supervised Deep Depth Denoising"
   info: Vladimiros Sterzentsenko, Leonidas Saroglou, Anargyros Chatzitofis, Spyridon Thermos, Nikolaos Zioulis, Alexandros Doumanoglou, Dimitrios Zarpalas, Petros Daras. International Conference on Computer Vision(ICCV 2019), Seoul, Korea
   github: https://vcl3d.github.io/DeepDepthDenoising/
-  img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publication_images/ddd_image.png?raw=true
+  img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publications_images/ddd_image.png?raw=true
   pdf: https://arxiv.org/pdf/1909.01193.pdf
   visible: true
