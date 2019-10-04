@@ -1,7 +1,7 @@
 # Publications
 
 - name: "A low-cost, flexible and portable volumetric capturing system"
-  info: Vladimiros Sterzentsenko, Antonis Karakottas, Alexandros Papachristou, Nikolaos Zioulis, Alexandros Doumanoglou, Dimitrios Zarpalas, and Petros Daras. The 14th International Conference on Signal Image Technology & Internet based Systems (SITIS 2018), Las Palmas de Gran Canaria, Spain, 26-29 November 2018 
+  info: Vladimiros Sterzentsenko, Antonis Karakottas, Alexandros Papachristou, Nikolaos Zioulis, Alexandros Doumanoglou, Dimitrios Zarpalas, Petros Daras. The 14th International Conference on Signal Image Technology & Internet based Systems (SITIS 2018), Las Palmas de Gran Canaria, Spain, 26-29 November 2018 
   github: https://github.com/VCL3D/VolumetricCapture
   pdf: http://vcl.iti.gr/vclNew/wp-content/uploads/2018/11/low-cost-flexible.pdf
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publications_images/Volcap_image.png?raw=true
@@ -13,10 +13,19 @@
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publications_images/ddd_image.png?raw=true
   pdf: https://arxiv.org/pdf/1909.01193.pdf
   visible: true
-  
-  - name: "360 Surface Regression with a Hyper-Sphere Loss"
+
+- name: "360 Surface Regression with a Hyper-Sphere Loss"
   info: Antonis Karakottas, Nikolaos Zioulis, Stamatis Samaras, Dimitrios Ataloglou, Vasileios Gkitsas,  Dimitrios Zarpalas, Petros Daras. In Proceedings of the 7th International Conference on 3D Vision (3DV), Québec City, Canada, September 16-19, 2019
-  github: https://vcl3d.github.io/3D60/
+  github: https://vcl3d.github.io/HyperSphereSurfaceRegression/
+  dataset_github: https://vcl3d.github.io/3D60/
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publications_images/3D60_dataset_image.png?raw=true
   pdf: https://vcl.iti.gr/vclNew/wp-content/uploads/2019/09/HyperSphereLoss.pdf
   visible: true
+ 
+- name: "Spherical View Synthesis for Self-Supervised 360 Depth Estimation"
+  info: Nikolaos Zioulis, Antonis Karakottas, Dimitrios Zarpalas, Federico Alvarez, Petros Daras. In Proceedings of the 7th International Conference on 3D Vision (3DV), Québec City, Canada, September 16-19, 2019
+  github: https://vcl3d.github.io/SphericalViewSynthesis/
+  img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publications_images/spherical_view_synthesis_image.png?raw=true
+  pdf: https://arxiv.org/pdf/1909.08112.pdf
+  visible: true
+  

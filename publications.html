@@ -18,6 +18,9 @@ header-img: "img/home-bg.jpg"
 	{% if publication.github %} 
 	<span class="social-share-googleplus"><a href="{{ publication.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
 	{% endif %}
+	{% if publication.dataset_github %} 
+	<span class="social-share-googleplus"><a href="{{ publication.dataset_github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Dataset Github</a></span> 
+	{% endif %}
 	{% if publication.pdf %}
 	<span class="social-share-googleplus"><a href="{{ publication.pdf }}" title="Google Plus"><img src="{{ "/img/icons/pdf_icon.png" | prepend: site.baseurl }}" style="height:20px">PDF</a></span>
 	{% endif %}
