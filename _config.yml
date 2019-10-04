@@ -1,7 +1,7 @@
 # Site settings
-#title: Project Pages
+title: An end-to-end multi-view Volumetric Platform
 #description: "An end-to-end multi-view Volumetric Platform"
-#url: "https://vcl3d.github.io"
+url: "https://vcl3d.github.io"
 
 
 
@@ -9,7 +9,7 @@
 # Secondary Parameters
 baseurl: "/"
 header-img: img/home-bg.jpg
-headercolor: "#e81717"
+headercolor: "#FFFFFF"
 #logo: /img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
