@@ -11,17 +11,15 @@ header-img: "img/home-bg.jpg"
 	<h1>{{ publication.name }}</h1>
 	
 	<p>{{ publication.info }}</p>
-	<!--
-	<p>{{ publication.conference }}</p>
-	-->
+	
 	{% if publication.github %} 
-	<span class="social-share-googleplus"><a href="{{ member.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
+	<span class="social-share-googleplus"><a href="{{ publication.github }}" title="PDF"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">PDF</a></span> 
 	{% endif %}
 	{% if publication.gplus %}
-	<span class="social-share-googleplus"><a href="{{ member.gplus }}" title="Google Plus"><img src="{{ "/img/icons/gplus-icon.png" | prepend: site.baseurl }}" style="height:20px">Google Plus</a></span>
+	<span class="social-share-googleplus"><a href="{{ publication.gplus }}" title="Google Plus"><img src="{{ "/img/icons/gplus-icon.png" | prepend: site.baseurl }}" style="height:20px">Google Plus</a></span>
 	{% endif %}
 	{% if publication.url %}
-	<span class="social-share-googleplus"><a href="{{ member.url }}" title="Google Plus"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
+	<span class="social-share-googleplus"><a href="{{ publication.url }}" title="Google Plus"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
 	{% endif %}
 	
 	</br>
