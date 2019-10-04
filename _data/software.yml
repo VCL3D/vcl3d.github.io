@@ -1,6 +1,6 @@
 #Tools
 
 - name: Volumetric Capture
-  description: Multi - view real - time Volumetric Capturing Platform
-  github: https://github.com/VCL3D/VolumetricCapture
+  description: Capturing platform of multi-view hardware synchronized RGB-D frames.
+  github: VCL3D/VolumetricCapture
   visible: true
