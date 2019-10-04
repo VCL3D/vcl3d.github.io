@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      IBC Future Zone
+author:     Leonidas Saroglou
+tags: 		post template
+subtitle:  	Demonstration of an end-to-end capturing and TVM pipeline in IBC
+category:  project1
+---
+<!-- Start Writing Below in Markdown -->
+
+# IBC information
+IBC is the world's most influential media, entertainment and technology show. Six leading international bodies are the partners behind IBC, representing both exhibitors and visitors.
+
+In 2019 IBC attracted more than 56,000 attendees from 150 countries around the world, exhibiting more than 1,700 of the world's key technology suppliers and showcasing a debate-leading conference.
+
+
