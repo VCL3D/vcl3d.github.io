@@ -1,6 +1,6 @@
 # Publications
 
 - name: "A low-cost, flexible and portable volumetric capturing system"
-  authors: Vladimiros Sterzentsenko, Antonis Karakottas, Alexandros Papachristou, Nikolaos Zioulis, Alexandros Doumanoglou, Dimitrios Zarpalas, and Petros Daras
-  conference: The 14th International Conference on Signal Image Technology & Internet based Systems (SITIS 2018), Las Palmas de Gran Canaria, Spain, 26-29 November 2018
+  info: Vladimiros Sterzentsenko, Antonis Karakottas, Alexandros Papachristou, Nikolaos Zioulis, Alexandros Doumanoglou, Dimitrios Zarpalas, and Petros Daras. The 14th International Conference on Signal Image Technology & Internet based Systems (SITIS 2018), Las Palmas de Gran Canaria, Spain, 26-29 November 2018 
+  github: http://vcl.iti.gr/vclNew/wp-content/uploads/2018/11/low-cost-flexible.pdf
   visible: true
