@@ -1,13 +1,13 @@
 # Site settings
 title: VCLab ITI-CERTH Team
 description: "3D RnD"
-url: "/"
+url: "https://vcl3d.github.io"
 
 
 
 
 # Secondary Parameters
-baseurl: "https://vcl3d.github.io"
+baseurl: "https://github.com/VCL3D"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
 #logo: /img/logos/Project-Pages-New-Logo-Inverted.png
