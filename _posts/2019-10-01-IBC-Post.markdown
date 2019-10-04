@@ -10,8 +10,6 @@ category:  project1
 
 # IBC information
 IBC is the world's most influential media, entertainment and technology show. Six leading international bodies are the partners behind IBC, representing both exhibitors and visitors.
-
-## HTML
-<p>In 2019 IBC attracted more than 56,000 attendees from 150 countries around the world, exhibiting more than 1,700 of the world's key technology suppliers and showcasing a debate-leading conference.</p>
+In 2019 IBC attracted more than 56,000 attendees from 150 countries around the world, exhibiting more than 1,700 of the world's key technology suppliers and showcasing a debate-leading conference.
 
 
