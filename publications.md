@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About"
+title: "Publications"
 description: "VCLab's Publications"
 header-img: "img/home-bg.jpg"
 ---
