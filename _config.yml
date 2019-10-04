@@ -7,7 +7,7 @@ url: "https://vcl3d.github.io"
 
 
 # Secondary Parameters
-baseurl: "https://github.com/VCL3D"
+baseurl: "..\"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
 #logo: /img/logos/Project-Pages-New-Logo-Inverted.png
