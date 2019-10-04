@@ -10,24 +10,24 @@ header-img: "img/home-bg.jpg"
 	
 	<h1>{{ publication.name }}</h1>
 	
-	<p>{{ publication.authors + publication.conference }}</p>
+	<p>{{ publication.authors }}</p>
 	<!--
 	<p>{{ publication.conference }}</p>
 	-->
-	{% if member.github %} 
+	{% if publication.github %} 
 	<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
 	{% endif %}
-	{% if member.gplus %}
+	{% if publication.gplus %}
 	<span class="social-share-googleplus"><a href="{{ member.gplus }}" title="Google Plus"><img src="{{ "/img/icons/gplus-icon.png" | prepend: site.baseurl }}" style="height:20px">Google Plus</a></span>
 	{% endif %}
-	{% if member.url %}
+	{% if publication.url %}
 	<span class="social-share-googleplus"><a href="{{ member.url }}" title="Google Plus"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
 	{% endif %}
 	
 	</br>
 
-	{% if member.bio %} 
-	{{ member.bio }}
+	{% if publication.bio %} 
+	{{ publication.bio }}
 	{% endif %}
 	
 	<hr>
