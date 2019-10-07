@@ -28,7 +28,7 @@
   bio: Software Design & Development, Image Processing, Pattern Recognition.
   visible: true
   
-- name: Antonios Karakottas
+- name: Antonis Karakottas
   role: Research Assistant / Software Developer
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/members/peruk.jpg?raw=true
   github: ankarako
@@ -52,5 +52,5 @@
 - name: Petros Drakoulis
   role: Research Assistant / Software Developer
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/members/petros.drakoulis.jpg?raw=true
-  bio: Received his BSc in IT Engineering from Alexander TEI and his MSc in Digital Media and Machine Learning from Aristotle University of Thessaloniki. Interested in computational intelligence, computer vision, difficult algorithms and all things moving.
+  bio: Received his BSc in IT Engineering from Alexander TEI and his MSc in Digital Media and Computational Intelligence from Aristotle University of Thessaloniki.
   visible: true
