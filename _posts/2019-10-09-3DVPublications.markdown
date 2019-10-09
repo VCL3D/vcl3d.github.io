@@ -8,7 +8,7 @@ category:  project1
 ---
 <!-- Start Writing Below in Markdown -->
 
-# New Release Information
+# 2 papers presented at <a href="http://3dv19.gel.ulaval.ca/" target="_blank"> 3DV2019 </a>
 We are very happy to announce that the following research papers from our lab were presented and published at the 7<sup>th</sup> International Conference on 3D Vision 2019 (3DV2019).
 <ul>
     <li>
