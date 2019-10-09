@@ -1,21 +1,21 @@
 # Publications
 
 - name: "A low-cost, flexible and portable volumetric capturing system"
-  info: Vladimiros Sterzentsenko, Antonis Karakottas, Alexandros Papachristou, Nikolaos Zioulis, Alexandros Doumanoglou, Dimitrios Zarpalas, Petros Daras. The 14th International Conference on Signal Image Technology & Internet based Systems (SITIS 2018), Las Palmas de Gran Canaria, Spain, 26-29 November 2018 
+  info: <em>Vladimiros Sterzentsenko, Antonis Karakottas, Alexandros Papachristou, Nikolaos Zioulis, Alexandros Doumanoglou, Dimitrios Zarpalas, Petros Daras</em>. The 14th International Conference on Signal Image Technology & Internet based Systems (SITIS 2018), Las Palmas de Gran Canaria, Spain, 26-29 November 2018
   github: https://github.com/VCL3D/VolumetricCapture
   pdf: http://vcl.iti.gr/vclNew/wp-content/uploads/2018/11/low-cost-flexible.pdf
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publications_images/ALowCost.png?raw=true
   visible: true
 
 - name: "Self-Supervised Deep Depth Denoising"
-  info: Vladimiros Sterzentsenko, Leonidas Saroglou, Anargyros Chatzitofis, Spyridon Thermos, Nikolaos Zioulis, Alexandros Doumanoglou, Dimitrios Zarpalas, Petros Daras. International Conference on Computer Vision(ICCV 2019), Seoul, Korea
+  info: <em>Vladimiros Sterzentsenko, Leonidas Saroglou, Anargyros Chatzitofis, Spyridon Thermos, Nikolaos Zioulis, Alexandros Doumanoglou, Dimitrios Zarpalas, Petros Daras </em>. International Conference on Computer Vision(ICCV 2019), Seoul, Korea
   github: https://vcl3d.github.io/DeepDepthDenoising/
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publications_images/DeepDepth.png?raw=true
   pdf: https://arxiv.org/pdf/1909.01193.pdf
   visible: true
 
 - name: "360 Surface Regression with a Hyper-Sphere Loss"
-  info: Antonis Karakottas, Nikolaos Zioulis, Stamatis Samaras, Dimitrios Ataloglou, Vasileios Gkitsas,  Dimitrios Zarpalas, Petros Daras. In Proceedings of the 7th International Conference on 3D Vision (3DV), Québec City, Canada, September 16-19, 2019
+  info: <em>Antonis Karakottas, Nikolaos Zioulis, Stamatis Samaras, Dimitrios Ataloglou, Vasileios Gkitsas,  Dimitrios Zarpalas, Petros Daras</em>. In Proceedings of the 7th International Conference on 3D Vision (3DV), Québec City, Canada, September 16-19, 2019
   github: https://vcl3d.github.io/HyperSphereSurfaceRegression/
   dataset_github: https://vcl3d.github.io/3D60/
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publications_images/360SurfaceRegression.png?raw=true
@@ -23,7 +23,7 @@
   visible: true
  
 - name: "Spherical View Synthesis for Self-Supervised 360 Depth Estimation"
-  info: Nikolaos Zioulis, Antonis Karakottas, Dimitrios Zarpalas, Federico Alvarez, Petros Daras. In Proceedings of the 7th International Conference on 3D Vision (3DV), Québec City, Canada, September 16-19, 2019
+  info: <em>Nikolaos Zioulis, Antonis Karakottas, Dimitrios Zarpalas, Federico Alvarez, Petros Daras</em>. In Proceedings of the 7th International Conference on 3D Vision (3DV), Québec City, Canada, September 16-19, 2019
   github: https://vcl3d.github.io/SphericalViewSynthesis/
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publications_images/SphericalSynthesis.png?raw=true
   pdf: https://arxiv.org/pdf/1909.08112.pdf
