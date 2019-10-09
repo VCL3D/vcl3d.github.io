@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      2 papers presented at 3DV2019
+title:      2 papers presented at <a href="http://3dv19.gel.ulaval.ca/">3DV2019</a>
 author:     Antonis Karakottas
 tags: 		Publications
 subtitle:  	360<sup>o</sup> Research
