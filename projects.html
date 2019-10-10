@@ -1,0 +1,23 @@
+---
+layout: page
+title: "EU Projects"
+description: "VCLab's participation in EU Projects"
+header-img: "img/home-bg.jpg"
+---
+<hr>
+
+{% for project in site.data.projects %} {% if project.visible == true %}
+	
+	<h1>{{ project.name }}</h1>
+	
+	<div style = "text-align: justify;">{{ tool.project }}</div>
+	
+	
+	{% if project.website %} 
+	<a href="{{ project.website}}"> Project Website </a>
+	{% endif %}
+	
+	<hr>
+
+{% endif %}{% endfor %}
+

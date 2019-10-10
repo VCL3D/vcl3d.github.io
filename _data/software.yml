@@ -3,4 +3,5 @@
 - name: Volumetric Capture
   description: Capturing platform of multi-view hardware synchronized RGB-D frames.
   github: VCL3D/VolumetricCapture
+  website: https://vrtogether.eu/
   visible: true
