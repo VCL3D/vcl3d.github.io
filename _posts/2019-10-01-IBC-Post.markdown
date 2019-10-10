@@ -2,7 +2,6 @@
 layout:     post
 title:      IBC Future Zone
 author:     Leonidas Saroglou
-tags: 		More
 subtitle:  	Demonstration of an end-to-end capturing and TVM pipeline in IBC
 category:  project1
 ---
