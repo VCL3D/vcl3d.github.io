@@ -2,7 +2,6 @@
 layout:     post
 title:      New Volumetric Capture Release Inc
 author:     Leonidas Saroglou
-tags: 		More
 subtitle:  	Kinect Azure
 category:  project1
 ---

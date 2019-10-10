@@ -2,7 +2,6 @@
 layout:     post
 title:      2 papers presented at 3DV2019
 author:     Antonis Karakottas
-tags: 		Publications
 subtitle:  	360<sup>o</sup> Research
 category:  project1
 ---
