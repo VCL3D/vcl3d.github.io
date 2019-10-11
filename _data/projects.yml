@@ -5,3 +5,15 @@
   website: https://vrtogether.eu/
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/project_logos/vrt_logo.png?raw=true
   visible: true
+
+- name: Hyper360
+  description: Enriching 360 media with 3D storytelling and personalization elements.
+  website: http://www.hyper360.eu/
+  img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/project_logos/hyper_logo.jpg?raw=true
+  visible: true
+  
+- name: 5G Media
+  description: Dynamic 5G network capabilities to boost the media industry.
+  website: http://www.5gmedia.eu/
+  img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/project_logos/5G_logo.jpg?raw=true
+  visible: true
