@@ -9,7 +9,7 @@ header-img: "img/home-bg.jpg"
 {% for project in site.data.projects %} {% if project.visible == true %}
 	
 	{% if project.img %} 
-	<img src="{{ project.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; height:100px; width:150px !important">
+	<img src="{{ project.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:150px; height:150px !important">
 	{% endif %}
 	
 	<h1>{{ project.name }}</h1>
