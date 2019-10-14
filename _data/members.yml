@@ -28,12 +28,26 @@
   bio: Antonis Karakottas obtained his diploma from the Department of Electrical and Computer Engineering, Aristotle University of Thessaloniki in 2015. He has been working as a research assistant at ITI since July 2017. His main interests are in computer vision, image processing and Virtual Reality applications.
   visible: true
 
+- name: Kiriaki Christaki
+  role: Research Assistant / Software Developer
+  img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/members/Kiriaki-Christaki.jpg?raw=true
+  #github: 
+  bio: Kyriaki Christaki received her Diploma in Electrical and Computer Engineering from the Aristotle University of Thessaloniki (A.U.Th.) in April 2013. She has worked for 2 years in the private sector as a software engineer. Since December 2017, she works as a research assistant at the Informatics and Telematics Institute  (ITI) of the Centre of Research and Technology Hellas (CERTH). Her current research interests include Software Design,  3D Graphics and Virtual Reality applications.
+  visible: true
+
 - name: Petros Drakoulis
   role: Research Assistant / Software Developer
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/members/petros.drakoulis.jpg?raw=true
   bio: Received his BSc in IT Engineering from Alexander TEI and his MSc in Digital Media and Computational Intelligence from Aristotle University of Thessaloniki.
   visible: true
    
+- name: Manos Christakis
+  role: Research Assistant / Software Developer
+  img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/members/manoschristakis.png?raw=true
+  #github: 
+  bio: Manos Christakis graduated as an Electrical and Computer Engineer  from the Aristotle University of Thessaloniki (A.U.Th) in July 2016. He is mainly interested in Digital Signal and Image Processing and Telecommunications.
+  visible: true
+  
 - name: Vladimiros Sterzentsenko
   role: Research Assistant / Software Developer
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/members/Vladimiros.jpg?raw=true
@@ -46,6 +60,27 @@
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/members/leonidasSaroglou.jpg?raw=true
   github: LeoSarog
   bio: Saroglou Leonidas graduated from the department of Electrical and Computer Engineering of Aristotle University of Thessaloniki (A.U.Th.) in November 2017. Since February 2018, he has been working as a research assistant at the Information Technologies Institute (I.T.I.) of Centre for Technological Research and Technology Hellas (CERTH). His research interests are 3D computer vision, digital image processing, real time 3D reconstruction, pattern recognition and machine learning.
+  visible: true
+
+- name: Konstantinos Konstantoudakis
+  role: Postdoctoral Researchers
+  img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/members/Konstantoudakis-.png?raw=true
+  #github:
+  bio: Konstantinos Konstantoudakis received his diploma in Electrical and Computer Engineering from the Aristotle University of Thessaloniki in 2004. In 2005 he was awarded the degree of MSc with distinction in Digital Signal Processing from King’s College London, and in 2018 he completed his PhD at the Aristotle University of Thessaloniki, on the subject of “Accurate motion estimation and super-resolution techniques for digital images and video”. He has worked as a software engineer and researcher. Since 2018 he works at the Information Technologies Institute of CERTH. His research interests include motion estimation, super-resolution, and image compression and encoding.
+  visible: true
+
+- name: Vasilis Magoulianitis
+  role: Research Assistant / Software Developer
+  img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/members/magoulianitis.jpg?raw=true
+  #github:
+  bio: Vasileios Magoulianitis completed his studies at the University of Thessaly in Greece, in the School of Electrical and Computer Engineering. After graduation, he worked as intern computer vision developer in Irida Labs s.a. for six months, before joined in the Information Technologies Institute of Centre for Research and Technology Hellas in 2016, as a computer vision research assistant. His research interests lie in the areas of image processing, computer vision, deep learning and video coding. He is a student member in IEEE organization.
+  visible: true
+  
+- name: Vasileios Gkitsas
+  role: Research Assistant / Software Developer
+  img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/members/gkitsasv.jpg?raw=true
+  #github:
+  bio: Gkitsas Vasileios obtained his university degree from the Electrical & Computer Engineering department of Aristotle University of Thessaloniki in April 2018. He completed his internship and since June 2018 he has been working as a research assistant in the Information Technologies Institute (ITI) of the Centre for Research and Technology Hellas (CERTH). His research interests include computer vision, machine learning and image & video processing.
   visible: true
 
 - name: Spiros Thermos
