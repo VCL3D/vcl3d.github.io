@@ -8,7 +8,17 @@ category:  project1
 <!-- Start Writing Below in Markdown -->
 
 # IBC information
-IBC is the world's most influential media, entertainment and technology show. Six leading international bodies are the partners behind IBC, representing both exhibitors and visitors.
-In 2019 IBC attracted more than 56,000 attendees from 150 countries around the world, exhibiting more than 1,700 of the world's key technology suppliers and showcasing a debate-leading conference.
+CERTH and VRTogether joined the 2019 edition of IBC, the world’s most influential media, entertainment and technology show. 
+In particular, the VRTogether was featured at the Future Zone, a specially curated area bringing together the very latest ideas, 
+innovations and concept technologies from international industry and academia. More than 300 visitors were able to try out our latest social 
+Virtual Reality experience while more than 6.000 visitors visit our booth. Specifically, visitors met us at stand 8.F10 where our groundbreaking cost-effective 
+social Virtual Reality experiences were presented for users in remote domestic scenarios, based on photo-realistic immersive content. 
+Visitors wearing VR headsets were body-captured, inserted and immersed together in a virtual environment, where they can interact with each other in real time.
+IBC brought together over 55,000 professionals from over 150 countries spanning the creation, management and delivery of electronic media and entertainment. 
+It attracted over 1,700 exhibitors from all around the world and more than 1,000 of the world’s top media technology journalists. 
+The flagship IBC Conference featured a curated program including over 400 of the world’s leading industry influencers and experts providing an 
+authoritative and independent view and helping to shape the future of the industry.
+
+![alt text](https://github.com/VCL3D/vcl3d.github.io/blob/master/img/IBC_pictures/IMG_20190912_222956.jpg?raw=true "Basic Setup")
 
 
