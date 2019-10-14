@@ -23,5 +23,9 @@ authoritative and independent view and helping to shape the future of the indust
 
 
 ![alt text](https://github.com/VCL3D/vcl3d.github.io/blob/master/img/IBC_pictures/IMG_20190912_222956.jpg?raw=true "Basic Setup")
+![alt text](https://github.com/VCL3D/vcl3d.github.io/blob/master/img/IBC_pictures/IMG_20190914_102303.jpg?raw=true "Volumetric Capture")
+![alt text](https://github.com/VCL3D/vcl3d.github.io/blob/master/img/IBC_pictures/IMG_20190914_103527.jpg?raw=true "Volumetric Reconstruction 1")
+![alt text](https://github.com/VCL3D/vcl3d.github.io/blob/master/img/IBC_pictures/IMG_20190914_112947.jpg?raw=true "Volumetric Reconstruction 2")
+![alt text](https://github.com/VCL3D/vcl3d.github.io/blob/master/img/IBC_pictures/IMG_20190914_165812.jpg?raw=true "Voluemtric Reconstruction 3")
 
 
