@@ -18,4 +18,4 @@ We are currently waiting for the delivery of the new <a href="https://en.wikiped
 As you know our current version of Volumetric Capture uses the <a href="https://www.intelrealsense.com/depth-camera-d415/">IntelRealsense D415</a> RGBD sensors. We 
 plan to extend the platform's utility to be compatible with different sensors. Stay tuned for our next
 releases of Volumetric Capture.
-<\div>
+</div>
