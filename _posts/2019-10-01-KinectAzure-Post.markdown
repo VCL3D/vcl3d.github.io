@@ -14,8 +14,8 @@ category:  project1
 <div style = "text-align: justify;">
 The pre-orders were made! 
 The first steps for a multi-view capturing platform with different sensors are indeed a fact.
-We are currently waiting for the delivery of the new <a href="https://en.wikipedia.org/wiki/Azure_Kinect">Kinect Azure</a> devices to start the integration!
-As you know our current version of Volumetric Capture uses the <a href="https://www.intelrealsense.com/depth-camera-d415/">IntelRealsense D415</a> RGBD sensors. We 
+We are currently waiting for the delivery of the new <a style="font-weight:bold href="https://en.wikipedia.org/wiki/Azure_Kinect">Kinect Azure</a> devices to start the integration!
+As you know our current version of Volumetric Capture uses the <a style="font-weight:bold href="https://www.intelrealsense.com/depth-camera-d415/">IntelRealsense D415</a> RGBD sensors. We 
 plan to extend the platform's utility to be compatible with different sensors. Stay tuned for our next
 releases of Volumetric Capture.
 </div>
