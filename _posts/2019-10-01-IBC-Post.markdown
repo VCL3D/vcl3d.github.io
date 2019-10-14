@@ -8,6 +8,7 @@ category:  project1
 <!-- Start Writing Below in Markdown -->
 
 # IBC information
+<div style = "text-align: justify;">
 CERTH and VRTogether joined the 2019 edition of IBC, the world’s most influential media, entertainment and technology show. 
 In particular, the VRTogether was featured at the Future Zone, a specially curated area bringing together the very latest ideas, 
 innovations and concept technologies from international industry and academia. More than 300 visitors were able to try out our latest social 
@@ -18,6 +19,8 @@ IBC brought together over 55,000 professionals from over 150 countries spanning 
 It attracted over 1,700 exhibitors from all around the world and more than 1,000 of the world’s top media technology journalists. 
 The flagship IBC Conference featured a curated program including over 400 of the world’s leading industry influencers and experts providing an 
 authoritative and independent view and helping to shape the future of the industry.
+</div>
+
 
 ![alt text](https://github.com/VCL3D/vcl3d.github.io/blob/master/img/IBC_pictures/IMG_20190912_222956.jpg?raw=true "Basic Setup")
 
