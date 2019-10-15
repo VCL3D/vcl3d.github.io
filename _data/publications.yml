@@ -21,6 +21,13 @@
   pdf: https://arxiv.org/pdf/1909.08112.pdf
   visible: true
   
+- name: "Benchmarking Open-Source Static 3D Mesh Codecs for Immersive Media Interactive Live Streaming"
+  info: <em>Alexandros Doumanoglou, Petros Drakoulis, Nikola Zioulis, Dimitrios Zarpalas, Petros Daras</em>. IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Feb 2019.
+  #github: 
+  pdf: http://vcl.iti.gr/vclNew/wp-content/uploads/2019/02/benchmarking_open_source_static.pdf
+  img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/publications_images/benchmarking_codecs.png?raw=true
+  visible: true
+  
 - name: "DeepMoCap: Deep Optical Motion Capture Using Multiple Depth Sensors and Retro-Reflectors"
   info: <em>Anargyros Chatzitofis, Dimitrios Zarpalas, Stefanos Kollias, Petros Daras</em>. MDPI Sensors 2019.
   github: https://github.com/tofis/DeepMoCap
