@@ -79,7 +79,7 @@
 - name: Vasileios Gkitsas
   role: Research Assistant / Software Developer
   img: https://github.com/VCL3D/vcl3d.github.io/blob/master/img/members/gkitsasv.jpg?raw=true
-  #github:
+  github: VasilisGks
   bio: Gkitsas Vasileios obtained his university degree from the Electrical & Computer Engineering department of Aristotle University of Thessaloniki in April 2018. He completed his internship and since June 2018 he has been working as a research assistant in the Information Technologies Institute (ITI) of the Centre for Research and Technology Hellas (CERTH). His research interests include computer vision, machine learning and image & video processing.
   visible: true
 
