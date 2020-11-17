@@ -1,0 +1,3 @@
+@article{karakottasxr360, 
+title={XR360: A TOOLKIT FOR MIXED 360 AND 3D PRODUCTIONS}, 
+author={Karakottas, Antonis and Zioulis, Nikolaos and Doumanglou, Alexandros and Sterzentsenko, Vladimiros and Gkitsas, Vasileios and Zarpalas, Dimitrios and Daras, Petros} }

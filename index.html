@@ -1,38 +1,532 @@
----
-layout: page
----
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta" style="margin-bottom:5px">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
-	<div class="notepad-index-post-tags" style="">
-		{% for tag in post.tags %}<a href="{{ site.baseurl }}/search/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
-	</div>
-</div>
-<hr>
-{% endfor %}
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v5.1.4, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.1.4, mobirise.com">
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image:src" content="assets/images/index-meta.png">
+  <meta property="og:image" content="assets/images/index-meta.png">
+  <meta name="twitter:title" content="4D Reconstruction & Tele-Immersion Team Visual Computing Laboratory of ITI/CERTH">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/39130469-128x128-1-128x128.png" type="image/x-icon">
+  <meta name="description" content="4D Reconstruction & Tele-Immersion Team
+Visual Computing Laboratory of ITI/CERTH">
+  
+  
+  <title>4D Reconstruction & Tele-Immersion Team Visual Computing Laboratory of ITI/CERTH</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/web/assets/gdpr-plugin/gdpr-styles.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  
+</head>
+<body>
+  
+  <section class="menu cid-rX1F7Pkmy6" once="menu" id="menu1-3">
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+    
 
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm bg-color transparent">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="index.html#home">
+                         <img src="assets/images/vcl-black-bg-logo-348x194.png" alt="" title="" style="height: 4.3rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="index.html#home">4D Reconstruction &amp; Tele-Immersion Team<br>Visual Computing Laboratory of ITI/CERTH</a></span>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white display-4" href="research.html#research">Research</a></li>
+                <li class="nav-item"><a class="nav-link link text-white display-4" href="People.html#people">
+                        People</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="publications.html#publications" aria-expanded="false">
+                        Publications</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="software_data.html#Software_data" aria-expanded="false">Software/Data</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="news.html#News" aria-expanded="false">News</a></li><li class="nav-item dropdown"><a class="nav-link link text-white dropdown-toggle display-4" href="Projects.html#projects" data-toggle="dropdown-submenu" aria-expanded="false">
+                        Projects</a><div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="Projects.html#projects">Active</a><a class="text-white dropdown-item display-4" href="Completed_projects.html#Completed-projects" aria-expanded="false">Completed</a></div></li><li class="nav-item dropdown">
+                    <a class="nav-link link text-white dropdown-toggle display-4" href="https://mobirise.co" data-toggle="dropdown-submenu" aria-expanded="false">
+                        
+                        About</a><div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="Mission_and_History.html#Mission-&-History">Mission &amp; History</a><a class="text-white dropdown-item display-4" href="Awards.html#Notable-Awards" aria-expanded="false">Awards</a><a class="text-white dropdown-item display-4" href="Opportunities.html#opportunities" aria-expanded="false">Opportunities</a><a class="text-white dropdown-item display-4" href="Partners.html#partners" aria-expanded="false">Partners</a><a class="text-white dropdown-item display-4" href="Spin_offs.html#D-cube" aria-expanded="false">Spin-offs</a><a class="text-white dropdown-item display-4" href="Equipment.html#Equipment-and-infrastructure" aria-expanded="false">Equipment </a><a class="text-white dropdown-item display-4" href="Visit_VCL.html#visitvcl" aria-expanded="false">Visit VCL</a></div>
+                </li><li class="nav-item"><a class="nav-link link text-white display-4" href="Contact.html#contact">
+                        Contact</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="https://twitter.com/VCL_ITI" target="_blank"><span class="socicon socicon-twitter mbr-iconfont mbr-iconfont-btn" style="font-size: 15px; color: rgb(239, 239, 239);"></span></a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="https://www.youtube.com/channel/UCGbbUw3eDArKezM4CteODyw/featured" target="_blank"><span class="socicon socicon-youtube mbr-iconfont mbr-iconfont-btn" style="font-size: 15px; color: rgb(239, 239, 239);"></span></a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="https://github.com/VCL3D" target="_blank"><span class="socicon socicon-github mbr-iconfont mbr-iconfont-btn" style="font-size: 15px;"></span></a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="https://www.linkedin.com/company/visual-computing-lab/" target="_blank"><span class="socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn" style="font-size: 15px; color: rgb(239, 239, 239);"></span></a></li></ul>
+            
+        </div>
+    </nav>
+</section>
+
+<section class="carousel slide cid-rZgYvhGQfF" data-interval="false" id="home">
+
+    
+
+    <div class="full-screen"><div class="mbr-slider slide carousel" data-keyboard="false" data-ride="carousel" data-interval="5000" data-pause="true"><div class="carousel-inner" role="listbox"><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/interact-2.gif);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/interact-2.gif" alt="" title=""><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1"><a href="research.html#research" class="text-white"><strong>interact.</strong></a></h2><div class="mbr-section-btn" buttons="0"> <a class="btn btn-white-outline display-4" href="research.html#research"><span class="mbri-right mbr-iconfont mbr-iconfont-btn"></span></a></div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/reconstruct-2.gif);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/reconstruct-2.gif" alt="" title=""><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1"><strong>reconstruct<a href="research.html#research" class="text-white">.</a></strong><br></h2><div class="mbr-section-btn" buttons="0"> <a class="btn btn-white-outline display-4" href="research.html#research"><span class="mbri-right mbr-iconfont mbr-iconfont-btn"></span></a></div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/immerse-2.gif);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay" style="opacity: 0.4;"></div><img src="assets/images/immerse-2.gif" alt="" title=""><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1"><br><a href="research.html#research" class="text-white"><strong>immerse.</strong></a><br></h2><div class="mbr-section-btn" buttons="0"> <a class="btn btn-white-outline display-4" href="research.html#research"><span class="mbri-right mbr-iconfont mbr-iconfont-btn"></span></a></div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image active" data-bg-video-slide="false" style="background-image: url(assets/images/play-2.gif);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/play-2.gif" alt="" title=""><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1"><a href="research.html#research" class="text-white"><strong>play.</strong></a></h2><div class="mbr-section-btn" buttons="0"> <a class="btn btn-white-outline display-4" href="research.html#research"><span class="mbri-right mbr-iconfont mbr-iconfont-btn"></span></a></div></div></div></div></div></div></div><a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#home"><span aria-hidden="true" class="mbri-left mbr-iconfont"></span><span class="sr-only">Previous</span></a><a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next" href="#home"><span aria-hidden="true" class="mbri-right mbr-iconfont"></span><span class="sr-only">Next</span></a></div></div>
+
+</section>
+
+<section class="mbr-section content4 cid-sbXQ8UQuJx" id="content4-iu">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2">
+                    Software and Datasets</h2>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="team1 cid-sc3LdKJ9WB" id="team1-k7">
+    
+    
+    
+    <div class="container align-center">
+        
+        
+        <div class="row media-row">
+            
+        <div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/images/uava-1-500x416.jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">
+                           <a href="https://github.com/VCL3D/UAVA" class="text-black" target="_blank">UAVA</a></p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>A multimodal UAV assistant dataset</p>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://github.com/VCL3D/UAVA" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-github socicon"></span>
+                        </a>
+                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                            
+                        </a>
+                        <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                            
+                        </a>
+                        <a href="https://www.linkedin.com/in/mobirise" target="_blank">
+                            
+                        </a>
+                        <a href="https://www.instagram.com/mobirise/" target="_blank">
+                            
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw" target="_blank">    
+                            
+                        </a>
+                    </div>
+                </div>
+            </div><div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/images/adronepose-2.gif" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">
+                           <a href="https://github.com/VCL3D/DronePose" class="text-black" target="_blank">Drone Pose</a></p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Photorealistic UAV-Assistant Dataset Synthesis for 3D Pose Estimation via a Smooth Silhouette Loss</p>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://github.com/VCL3D/DronePose" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-github socicon"></span>
+                        </a>
+                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                            
+                        </a>
+                        <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                            
+                        </a>
+                        <a href="https://www.linkedin.com/in/mobirise" target="_blank">
+                            
+                        </a>
+                        <a href="https://www.instagram.com/mobirise/" target="_blank">
+                            
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw" target="_blank">    
+                            
+                        </a>
+                    </div>
+                </div>
+            </div><div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/images/strnet-1-500x416.jpg" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">
+                           <a href="https://github.com/VCL3D/StructureNet/" class="text-black" target="_blank">StructureNet</a></p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Markerless volumetric (multi-sensor) alignment for depth sensors</p>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://github.com/VCL3D/StructureNet/" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-github socicon"></span>
+                        </a>
+                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                            
+                        </a>
+                        <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                            
+                        </a>
+                        <a href="https://www.linkedin.com/in/mobirise" target="_blank">
+                            
+                        </a>
+                        <a href="https://www.instagram.com/mobirise/" target="_blank">
+                            
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw" target="_blank">    
+                            
+                        </a>
+                    </div>
+                </div>
+            </div><div class="team-item col-lg-3 col-md-6">
+                <div class="item-image">
+                    <img src="assets/images/untitled-2.gif" alt="" title="">
+                </div>
+                <div class="item-caption py-3">
+                    <div class="item-name px-2">
+                        <p class="mbr-fonts-style display-5">
+                           <a href="https://github.com/VCL3D/DeepPanoramaLighting" class="text-black" target="_blank">Deep Panorama Lighting</a></p>
+                    </div>
+                    <div class="item-role px-2">
+                        <p>Deep Lighting Environment Map Estimation from Spherical Panoramas</p>
+                    </div>
+                    <div class="item-social pt-2">
+                        <a href="https://github.com/VCL3D/DeepPanoramaLighting" target="_blank">
+                            <span class="p-1 mbr-iconfont mbr-iconfont-social socicon-github socicon"></span>
+                        </a>
+                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                            
+                        </a>
+                        <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                            
+                        </a>
+                        <a href="https://www.linkedin.com/in/mobirise" target="_blank">
+                            
+                        </a>
+                        <a href="https://www.instagram.com/mobirise/" target="_blank">
+                            
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw" target="_blank">    
+                            
+                        </a>
+                    </div>
+                </div>
+            </div></div>    
+    </div>
+</section>
+
+<section class="mbr-section content8 cid-sbXQZoZEXy" id="content8-iv">
+
+    
+
+    <div class="container">
+        <div class="media-container-row title">
+            <div class="col-12 col-md-8">
+                <div class="mbr-section-btn align-center"><a class="btn btn-black-outline display-4" href="software_data.html#Software_data">View more</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content4 cid-rX4E8Rrd7l" id="content4-6e">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2">
+                    Latest news</h2>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials3 cid-sbXZ5LstwG" id="testimonials3-jb">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="media-content px-3 align-self-center mbr-white py-2">
+                <p class="mbr-text testimonial-text mbr-fonts-style display-7">
+                   August 17, 2020
+                </p>
+                <p class="mbr-author-name pt-4 mb-2 mbr-fonts-style display-5">
+                   <a href="20200817 _VCL TO PARTICIPATE IN ECCV 2020 WORKSHOP.html#VCL_TO_PARTICIPATE_IN_ECCV_2020_WORKSHOP" class="text-black">VCL to participate in ECCV 2020 Workshop</a></p>
+                <p class="mbr-author-desc mbr-fonts-style display-7">
+                   The Visual Computing Lab (VCL) will participate in ECCV 2020 workshop. <a href="20200817 _VCL TO PARTICIPATE IN ECCV 2020 WORKSHOP.html#VCL_TO_PARTICIPATE_IN_ECCV_2020_WORKSHOP">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="mbr-figure pl-lg-5" style="width: 30%;">
+              <img src="assets/images/eccv2020-logo-700x310.jpg" alt="" title="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials3 cid-sbXZ6nATCW" id="testimonials3-jc">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="media-content px-3 align-self-center mbr-white py-2">
+                <p class="mbr-text testimonial-text mbr-fonts-style display-7">
+                   April 21, 2020
+                </p>
+                <p class="mbr-author-name pt-4 mb-2 mbr-fonts-style display-5">
+                   <a href="VISUAL_COMPUTING_LAB_ACTIVELY_PARTICIPATES_IN_SECURITY_RESEARCH_RAPID_RESPONSE_TO_COVID19.html#The-Visual-Computing-Lab-of-CERTH/ITI-actively-participates-in-Security-Research-Rapid-Response-to-COVID19" class="text-black">The Visual Computing Lab of CERTH/ITI actively participates in Security Research Rapid Response to COVID19</a>
+                </p>
+                <p class="mbr-author-desc mbr-fonts-style display-7">
+                   The Security Research Rapid Response Platform brings together the capabilities of the security research community to support the global efforts to combat COVID19. <a href="VISUAL_COMPUTING_LAB_ACTIVELY_PARTICIPATES_IN_SECURITY_RESEARCH_RAPID_RESPONSE_TO_COVID19.html#The-Visual-Computing-Lab-of-CERTH/ITI-actively-participates-in-Security-Research-Rapid-Response-to-COVID19">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="mbr-figure pl-lg-5" style="width: 30%;">
+              <img src="assets/images/coronavirus-structure-700x394.jpg" alt="" title="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials3 cid-sbXZ707dzF" id="testimonials3-jd">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="media-content px-3 align-self-center mbr-white py-2">
+                <p class="mbr-text testimonial-text mbr-fonts-style display-7">April 14, 2020&nbsp;<br></p>
+                <p class="mbr-author-name pt-4 mb-2 mbr-fonts-style display-5">
+                   <a href="news_vcl-to-participate-in-three-cvpr-2020-workshops.html#VCL-to-Participate-in-Three-CVPR-2020-Workshops" class="text-black">VCL to Participate in Three CVPR 2020 Workshops</a>
+                </p>
+                <p class="mbr-author-desc mbr-fonts-style display-7">
+                   Papers from three different teams within the Visual Computing Lab (VCL) have been accepted for publication at CVPR 2020 workshops. <a href="news_vcl-to-participate-in-three-cvpr-2020-workshops.html#VCL-to-Participate-in-Three-CVPR-2020-Workshops">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="mbr-figure pl-lg-5" style="width: 30%;">
+              <img src="assets/images/download-468x108.png" alt="" title="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content8 cid-rX539ECDzo" id="content8-6r">
+
+    
+
+    <div class="container">
+        <div class="media-container-row title">
+            <div class="col-12 col-md-8">
+                <div class="mbr-section-btn align-center"><a class="btn btn-black-outline display-4" href="news.html#News">Read more</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features1 cid-rZjTSXNeB6" id="features1-gs">
+    
+    
+
+    
+    <div class="container">
+        <div class="media-container-row">
+
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-img pb-3">
+                    <a href="Projects.html#projects"><span class="mbr-iconfont mbri-idea" style="color: rgb(20, 157, 204); fill: rgb(20, 157, 204);"></span></a>
+                </div>
+                <div class="card-box">
+                    <h4 class="card-title py-3 mbr-fonts-style display-5">
+                        <a href="Projects.html#projects"><strong>PROJECTS</strong></a>
+                    </h4>
+                    <p class="mbr-text mbr-fonts-style display-7"><a href="Projects.html#projects" class="text-black">We transform the way people work play and interact through innovative projects funded by the EC and the Greek Ministry of Research and Technology.</a></p>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-img pb-3">
+                    <a href="Equipment.html#Equipment-and-infrastructure"><span class="mbr-iconfont mbri-setting" style="color: rgb(20, 157, 204); fill: rgb(20, 157, 204);"></span></a>
+                </div>
+                <div class="card-box">
+                    <h4 class="card-title py-3 mbr-fonts-style display-5">
+                        <a href="Equipment.html#Equipment-and-infrastructure"><strong>EQUIPMENT</strong></a>
+                    </h4>
+                    <p class="mbr-text mbr-fonts-style display-7"><a href="Equipment.html#Equipment-and-infrastructure" class="text-black">We own state-of-the-art volumetric capturing and reconstruction stations  and  significant GPU infrastructure.</a></p>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-img pb-3">
+                    <a href="People.html#people"><span class="mbr-iconfont mbri-rocket" style="color: rgb(20, 157, 204); fill: rgb(20, 157, 204);"></span></a>
+                </div>
+                <div class="card-box">
+                    <h4 class="card-title py-3 mbr-fonts-style display-5">
+                        <a href="People.html#people"><strong>TEAM</strong></a>
+                    </h4>
+                    <p class="mbr-text mbr-fonts-style display-7"><a href="People.html#people" class="text-black">Highly qualified staff that drives Visual Computing Lab forward working together across disciplines and research areas in an innovative and challenging environment to deliver cutting-edge research.</a></p>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="features1 cid-rZk9ZmpfWI" id="features1-h3">
+    
+    
+
+    
+    <div class="container">
+        <div class="media-container-row">
+
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-img pb-3">
+                    <a href="publications.html#publications"><span class="mbr-iconfont mbri-file"></span></a>
+                </div>
+                <div class="card-box">
+                    <h4 class="card-title py-3 mbr-fonts-style display-5">
+                        <a href="publications.html#publications"><strong>PUBLICATIONS</strong></a>
+                    </h4>
+                    <p class="mbr-text mbr-fonts-style display-7"><a href="publications.html#publications" class="text-black">We publish state-of-the-art research in top refereed international scientific journals, conferences and books.</a></p>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-img pb-3">
+                    <a href="Partners.html#partners"><span class="mbr-iconfont mbri-users"></span></a>
+                </div>
+                <div class="card-box">
+                    <h4 class="card-title py-3 mbr-fonts-style display-5">
+                        <a href="Partners.html#partners"><strong>PARTNERS</strong></a>
+                    </h4>
+                    <p class="mbr-text mbr-fonts-style display-7">
+                        <a href="Partners.html#partners" class="text-black">We participate in research networks with assorted institutes and industrial partners in Greece and Europe.</a></p>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-img pb-3">
+                    <a href="Opportunities.html#opportunities"><span class="mbr-iconfont mbri-growing-chart"></span></a>
+                </div>
+                <div class="card-box">
+                    <h4 class="card-title py-3 mbr-fonts-style display-5">
+                        <a href="Opportunities.html#opportunities"><strong>CAREERS</strong></a>
+                    </h4>
+                    <p class="mbr-text mbr-fonts-style display-7">
+                        <a href="Opportunities.html#opportunities" class="text-black">We are always looking for motivated and creative people who are interested in pushing the limits of technology further.</a></p>
+                </div>
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+</section>
+
+<section once="footers" class="cid-rZhJ91BqQI" id="footer7-go">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="row row-links">
+                <ul class="foot-menu">
+                    
+                    
+                    
+                    
+                    
+                <li class="foot-menu-item mbr-fonts-style display-7"><p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="text-white mbr-bold" href="Mission_and_History.html#Mission-&-History">About us</a>
+                    </p></li><li class="foot-menu-item mbr-fonts-style display-7"><a class="text-white mbr-bold" href="publications.html#publications">Publications</a>
+                    </li><li class="foot-menu-item mbr-fonts-style display-7"><a class="text-white mbr-bold" href="Projects.html#projects">Projects</a>&nbsp; &nbsp;&nbsp;</li><li class="foot-menu-item mbr-fonts-style display-7">
+                        <a class="text-white mbr-bold" href="Opportunities.html#opportunities">Careers</a>&nbsp;</li><li class="foot-menu-item mbr-fonts-style display-7"><a class="text-white mbr-bold" href="Contact.html#contact">Contact</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li></ul>
+            </div>
+            <div class="row social-row">
+                <div class="social-list align-right pb-2">
+                    
+                    
+                    
+                    
+                    
+                    
+                <div class="soc-item">
+                        <a href="https://twitter.com/VCL_ITI" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.youtube.com/channel/UCGbbUw3eDArKezM4CteODyw/featured" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://github.com/VCL3D" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-github socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.linkedin.com/company/visual-computing-lab/" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                    </div></div>
+            </div>
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
+                    © Copyright 2020 VCL - All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/g" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Set up a site - <a href="https://mobirise.site/v" style="color:#aaa;">Learn more</a></p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>  <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/witsec-mailform/witsec-mailform.js"></script>  <script src="assets/slidervideo/script.js"></script>  
+  
+  
+<input name="cookieData" type="hidden" data-cookie-customDialogSelector='null' data-cookie-colorText='#424a4d' data-cookie-colorBg='rgba(234, 239, 241, 0.99)' data-cookie-textButton='Got it!' data-cookie-colorButton='' data-cookie-colorLink='#424a4d' data-cookie-underlineLink='true' data-cookie-text="We use cookies to give you the best experience.">
+   <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+    <input name="animation" type="hidden">
+  </body>
+</html>
