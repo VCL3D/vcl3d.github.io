@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "4D Reconstruction & Tele-Immersion Team | Visual Computing Laboratory ",
-    "currentPage": "Projects.html",
+    "currentPage": "publications.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -746,6 +746,7 @@
           "_sourceTheme": "mobirise4",
           "_customHTML": "<section class=\"carousel slide\" group=\"Sliders & Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"carousel\" title=\"Slides\" name=\"slides\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-carousel=\"slides\" class=\"full-screen\" mbr-carousel-embedded></div>\n\n</section>",
           "_cid": "smIkajr8jP",
+          "_anchor": "home",
           "_protectedParams": [
             "slides__autoplay",
             "slides__autoplayInterval",
@@ -837,8 +838,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-secondary\" data-app-placeholder=\"Type Text\" href=\"research.html#top\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a> "
               }
             ]
-          },
-          "_anchor": "home"
+          }
         },
         {
           "alias": false,
@@ -5746,11 +5746,11 @@
           "_sourceTheme": "mobirise4",
           "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"30\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n          <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/vladimiros-1-180x245.jpg\" alt>\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\"><span style=\"font-style: normal;\"><b>Mr. Vladimiros Sterzentsenko \n</b><br>\n<br>Vladimiros Sterzentsenko received his diploma in Electrical and Computer Engineering from the Aristotle University of Thessaloniki (A.U.Th.) on November 2017. His research interests include machine learning, pattern recognition , computer vision and image processing.&nbsp;</span></p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\">Contact Information: \n<br>\n<br>Tel.: +30 2310 464160 (ext. 149) \n<br>Location: Information Technologies Institute, Centre of Research &amp; Technology – Hellas, 1st km Thermi – Panorama, 57001, Thessaloniki, Greece. Building B – Office 0.5 \n<br>Email: vladster(at)iti(dot)gr&nbsp;&nbsp;</p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "smItAnVZfG",
+          "_anchor": "sterzentsenko",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "sterzentsenko"
+          "_params": {}
         },
         {
           "alias": false,
