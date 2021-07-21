@@ -1,0 +1,98 @@
+@font-face {
+   font-family: 'Nunito';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 200;
+   src: url('file:///C:/Users/medentzidoup/Documents/GitHub/vcl3d.github.io/fonts/Nunito/200.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Nunito';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 300;
+   src: url('file:///C:/Users/medentzidoup/Documents/GitHub/vcl3d.github.io/fonts/Nunito/300.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Nunito';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///C:/Users/medentzidoup/Documents/GitHub/vcl3d.github.io/fonts/Nunito/600.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Nunito';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///C:/Users/medentzidoup/Documents/GitHub/vcl3d.github.io/fonts/Nunito/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Nunito';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 800;
+   src: url('file:///C:/Users/medentzidoup/Documents/GitHub/vcl3d.github.io/fonts/Nunito/800.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Nunito';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 900;
+   src: url('file:///C:/Users/medentzidoup/Documents/GitHub/vcl3d.github.io/fonts/Nunito/900.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Nunito';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 200;
+   src: url('file:///C:/Users/medentzidoup/Documents/GitHub/vcl3d.github.io/fonts/Nunito/200italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Nunito';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 300;
+   src: url('file:///C:/Users/medentzidoup/Documents/GitHub/vcl3d.github.io/fonts/Nunito/300italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Nunito';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///C:/Users/medentzidoup/Documents/GitHub/vcl3d.github.io/fonts/Nunito/regular.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Nunito';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///C:/Users/medentzidoup/Documents/GitHub/vcl3d.github.io/fonts/Nunito/italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Nunito';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///C:/Users/medentzidoup/Documents/GitHub/vcl3d.github.io/fonts/Nunito/600italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Nunito';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///C:/Users/medentzidoup/Documents/GitHub/vcl3d.github.io/fonts/Nunito/700italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Nunito';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 800;
+   src: url('file:///C:/Users/medentzidoup/Documents/GitHub/vcl3d.github.io/fonts/Nunito/800italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Nunito';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 900;
+   src: url('file:///C:/Users/medentzidoup/Documents/GitHub/vcl3d.github.io/fonts/Nunito/900italic.ttf') format('truetype');
+}
